@@ -1,0 +1,21 @@
+ /* 명함을 감싸는 컨테이너 */
+ .card-container {
+    display: flex;
+    flex-direction: row; /* 명함을 가로로 나열 */
+    flex-wrap: wrap; /* 명함이 화면에 맞춰 줄 바꿈되도록 */
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 세로 방향으로 가운데 정렬 */
+    align-content: space-between;
+  }
+  
+  /* 명함 디자인 */
+  .card {
+    width: 300px; /* 명함의 가로 길이 */
+    height: 200px; /* 명함의 세로 길이 */
+    background-color: #3498db; /* 명함의 배경색 */
+    color: white; /* 텍스트 색상 */
+    border: 2px solid #2980b9; /* 테두리 색상 */
+    padding: 20px; /* 명함 내부 여백 */
+    margin: 10px; /* 명함 외부 여백 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+  }
